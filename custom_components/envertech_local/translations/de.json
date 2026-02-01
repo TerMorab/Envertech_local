@@ -3,7 +3,7 @@
         "step": {
             "user": {
                 "title": "Wechselrichter Monitor Einrichtung",
-                "description": "Konfiguriere die IP und den Port des Wechsel",
+                "description": "Konfiguriere die IP und den Port des Microwechselrichters.",
                 "data": {
                     "ip_address": "Wechselrichter IP Adresse",
                     "port": "TCP Port"
