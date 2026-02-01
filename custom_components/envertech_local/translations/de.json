@@ -1,0 +1,48 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Wechselrichter Monitor Einrichtung",
+                "description": "Konfiguriere die IP und den Port des Wechsel",
+                "data": {
+                    "ip_address": "Wechselrichter IP Adresse",
+                    "port": "TCP Port"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "input_voltage": {
+                "name": "Eingangsspannung"
+            },
+            "power": {
+                "name": "Leistung"
+            },
+            "energy": {
+                "name": "Energie"
+            },
+            "temperature": {
+                "name": "Temperatur"
+            },
+            "grid_voltage": {
+                "name": "Netzspannung"
+            },
+            "frequency": {
+                "name": "Frequenz"
+            },
+            "module_serial": {
+                "name": "Seriennummer Modul"
+            },
+            "firmware_version": {
+                "name": "Firmware Version"
+            },
+            "total_energy": {
+                "name": "Energie gesamt"
+            },
+            "total_power": {
+                "name": "Leistung gesamt"
+            }
+        }
+    }
+}
