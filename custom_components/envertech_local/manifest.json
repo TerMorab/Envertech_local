@@ -1,13 +1,13 @@
 {
   "domain": "envertech_local",
-  "name": "Envertech",
-  "codeowners": ["@Kaiserdragon2"],
+  "name": "Envertech Local",
+  "codeowners": ["@TerMorab"],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://github.com/Kaiserdragon2/Envertech_local",
+  "documentation": "https://github.com/TerMorab/Envertech_local",
   "integration_type": "device",
   "iot_class": "local_polling",
-  "issue_tracker": "https://github.com/Kaiserdragon2/Envertech_local/issues",
+  "issue_tracker": "https://github.com/TerMorab/Envertech_local/issues",
   "requirements": ["envertech-local==0.0.2"],
   "version": "1.0.0"
 }
